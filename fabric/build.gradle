@@ -2,8 +2,9 @@ import net.fabricmc.loom.task.RemapJarTask
 
 plugins {
 	id "de.undercouch.download" version "5.4.0" // Used for downloading JCEF binaries
-	id 'fabric-loom' version '1.2-SNAPSHOT'
+	id 'fabric-loom' version '1.10-SNAPSHOT'
 	id 'maven-publish'
+	id 'idea'
 }
 
 archivesBaseName = project.archives_base_name
@@ -45,7 +46,6 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
 	it.options.release = 17
 }
 
