@@ -11,6 +11,3 @@ pluginManagement {
 }
 
 rootProject.name = 'cinemamod'
-
-include('fabric')
-include('bukkit')

@@ -11,6 +11,3 @@ Current blockers before releasing:
 - Need to convert CinemaMod to use MCEF 2
 - Need to make a server backend for Fabric in addition to Bukkit
 - Need to remove the hard requirement for ffmpeg to be installed on the server
-
-## Discussion
-https://discord.gg/rNrh5kW8Ty
