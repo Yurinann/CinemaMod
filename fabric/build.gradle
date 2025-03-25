@@ -80,6 +80,10 @@ processResources {
 	filesMatching("fabric.mod.json") {
 		expand "version": project.version
 	}
+
+	filesMatching("cinemamod.mixins.json") {
+		expand(project.properties)
+	}
 }
 
 idea {
